@@ -7,7 +7,7 @@ import RF; reload(RF)
 import Spikes; reload(Spikes)
 import misc; reload(misc)
 from itertools import combinations
-import matplotlib.mpl as mpl
+import matplotlib as mpl
 
 def calc_rrtf_all(rast, stimparams, freq, urrs, npips = 6, onset = 0.05, norm = True):
 	'''
